@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Wikipedia Viewer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Christian Barrios">
+</head>
+
+<body class="grey lighten-5">
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="center-align">Wikipedia Viewer</h1>
+        </header>
+        <!-- Header -->
+
+        <!-- Input field -->
+        <div class="search-form row">
+
+            <div class="search-form__input input-field col s12 m8 offset-m2">
+                <i class="material-icons prefix">label_outline</i>
+                <input id="article-to-find" type="text" class="validate">
+                <label for="article-to-find">Type here</label>
+            </div>
+
+            <div class="search-form__div-buttons col s12">
+                <div class="row">
+                    <div class="col s6 center-align">
+                        <button id="search-button" class="btn waves-effect waves-light" type="submit" name="action">Search
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                    <div class="col s6 center-align">
+                        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Ramdon article
+                                <i class="material-icons right">loop</i>                            
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Input field -->
+
+        <!-- Search result -->
+        <div id="search-results">
+
+        </div>
+        <!-- Search result -->
+        
+        <!-- footer -->
+        <footer>
+            <div class="row">
+                <div class="col-xs-12 col-md-2 col-md-offset-8">
+                    <p>Coded by Christian Barrios</p>
+                    <a href="https://github.com/christiandbf/random-quote" target="_blank" id="link-github" class="">
+                        <i class="fa fa-github" aria-hidden="true"></i> View on Github
+                    </a>
+                </div>
+            </div>                
+        </footer>
+        <!-- footer -->
+ 
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
