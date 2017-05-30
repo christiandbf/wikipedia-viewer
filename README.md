@@ -1,5 +1,5 @@
 Build a Wikipedia Viewer - Free Code Camp.
 
-![alt](http://link)
+![alt](https://github.com/christiandbf/wikipedia-viewer/blob/master/sample.jpg)
 
-[View here](http://link)
+[View here](https://christiandbf.github.io/wikipedia-viewer/)
